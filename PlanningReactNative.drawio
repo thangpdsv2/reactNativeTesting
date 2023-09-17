@@ -1,9 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2023-09-17T06:47:20.818Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.7.5" etag="EvEjg7MQGhXgCxLL7Kk9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-17T08:19:25.305Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="EoY7GSQYcCWMLkvGGNyl" version="21.7.5" type="github">
   <diagram name="Page-1" id="amvmLX5-Qw1hjUIvyVow">
-    <mxGraphModel>
+    <mxGraphModel dx="1306" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GRGStDCxuBeOnQ4SUFNK-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GRGStDCxuBeOnQ4SUFNK-13" target="GRGStDCxuBeOnQ4SUFNK-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GRGStDCxuBeOnQ4SUFNK-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GRGStDCxuBeOnQ4SUFNK-5" target="GRGStDCxuBeOnQ4SUFNK-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GRGStDCxuBeOnQ4SUFNK-5" value="Authentication &amp;amp; Authorization" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="290" width="200" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="GRGStDCxuBeOnQ4SUFNK-3" value="LambdaFunction&lt;br&gt;SecretToken&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GRGStDCxuBeOnQ4SUFNK-5">
+          <mxGeometry x="35" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GRGStDCxuBeOnQ4SUFNK-4" value="GoogleOauth2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GRGStDCxuBeOnQ4SUFNK-5">
+          <mxGeometry x="40" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GRGStDCxuBeOnQ4SUFNK-9" value="Google Api" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="275" width="200" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="GRGStDCxuBeOnQ4SUFNK-2" value="Integrate Google Photos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GRGStDCxuBeOnQ4SUFNK-9">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GRGStDCxuBeOnQ4SUFNK-10" value="Google Calendar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GRGStDCxuBeOnQ4SUFNK-9">
+          <mxGeometry x="40" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GRGStDCxuBeOnQ4SUFNK-11" value="Google Drive" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GRGStDCxuBeOnQ4SUFNK-9">
+          <mxGeometry x="40" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GRGStDCxuBeOnQ4SUFNK-13" value="Application" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="280" width="200" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="GRGStDCxuBeOnQ4SUFNK-1" value="ReactNativeApp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GRGStDCxuBeOnQ4SUFNK-13">
+          <mxGeometry x="30" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GRGStDCxuBeOnQ4SUFNK-12" value="Django Python Website" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GRGStDCxuBeOnQ4SUFNK-13">
+          <mxGeometry x="30" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
